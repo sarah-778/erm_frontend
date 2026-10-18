@@ -11,7 +11,7 @@ export default function Footer() {
     quickLinks: [
       { label: 'Risk Management', to: '/services' },
       { label: 'Security Services', to: '/services' },
-      { label: 'About ERM Solitions', to: '/about' },
+      { label: 'About ERM Solutions', to: '/about' },
       { label: 'Request Consultation', to: '/contact' },
     ],
     specialties: [

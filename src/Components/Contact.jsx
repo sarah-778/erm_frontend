@@ -22,7 +22,7 @@ export default function Contact() {
     setErrorMessage('');
 
     try {
-      const response = await fetch('http://localhost:8000/api/consultations', {
+      const response = await fetch('https://api.ermconsultants.com/api/consultations', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
